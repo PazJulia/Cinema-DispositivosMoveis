@@ -1,9 +1,10 @@
 package br.unitins.cinema
 
+import android.app.Activity
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class activity_cadastro_sala : AppCompatActivity() {
+class CadastroSala : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
